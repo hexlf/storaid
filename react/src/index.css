@@ -1,3 +1,13 @@
 :root {
   background-color: #242424;
+  --clr-green-primary: #12372A;
+  --clr-yelow-primary: #F1C30C;
+  --clr-faintyelow-prim: #FAF8EC;
+  --clr-faintyelow-sec: #F1FFEA;
+  --clr-gray-background: #C4C4C4;
+}
+
+.test{
+  width: 100px;
+  height: 100px;
 }

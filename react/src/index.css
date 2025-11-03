@@ -5,7 +5,7 @@
 }
 
 :root {
-  background-color: #242424;
+  /*background-color: #242424;*/
   --clr-white-primary: #fff;
   --clr-green-primary: #12372A;
   --clr-yelow-primary: #F1C30C;
@@ -73,15 +73,13 @@
   .NeedToBeWhite{
     display: flex;
     align-items: center;
-    background-color: var(--clr-white-primary);
     height: 90px;
-    width: 1920px;
 
     .needrow{
       display: flex;
-      padding: 10px 18px 10px 18px;
       align-items: center;
       width: 100%;
+      padding: 0 10px 0 10px;
       justify-content: space-between;
     }
 

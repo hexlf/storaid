@@ -6,11 +6,11 @@ function Navbar() {
           <div className="phone-mail">
             <div>
               <img className="smallimg" src="src/img/phone.png" alt="phone number" />
-              <a href="X">+46 8 123 122 44</a>
+              <a className="whitelinks" href="X">+46 8 123 122 44</a>
             </div>
             <div>
               <img className="smallimg" src="src/img/mail.png" alt="gmail" />
-              <a href="X">contact@domain.com</a>
+              <a className="whitelinks" href="X">contact@domain.com</a>
             </div>
           </div>
           <div className="imgcontainer">
@@ -21,12 +21,18 @@ function Navbar() {
           </div>
         </div>
         <div className="NeedToBeWhite">
-          <a href="X"><img src="src/img/Logo.png" alt="Logo" /></a>
-          <a href="">Home</a>
-          <a href="">About Us</a>
-          <a href="">Services</a>
-          <a href="">Contact Us</a>
-          <a href="booking.jsx" className="NeedToBeYelow">Book Now</a>
+          <div className="needrow">
+              <a href="X"><img className="logo" src="src/img/Logo.png" alt="Logo" /></a>
+              <div>
+                <a className="greenlinks NeedsUrbanFont" href="">Home</a>
+                <a className="greenlinks NeedsUrbanFont" href="">About Us</a>
+                <a className="greenlinks NeedsUrbanFont" href="">Services</a>
+                <a className="greenlinks NeedsUrbanFont" href="">Contact Us</a>
+              </div>
+              <div>
+                <a href="booking.jsx" className="NeedToBeYelow btn-area">Book Now</a>
+              </div>
+          </div>
         </div>
       </div>
     </div>

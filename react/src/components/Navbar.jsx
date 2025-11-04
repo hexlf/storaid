@@ -1,8 +1,8 @@
-function Navbar() {
+const Navbar = () => {
   return (
     <div>
       <div className="Navbarcontainer">
-        <div className="NeedsToBeDarkGreen">
+        <div className="Navbartop NeedsToBeDarkGreen">
           <div className="phone-mail">
             <div>
               <img className="smallimg" src="src/img/phone.png" alt="phone number" />
@@ -14,23 +14,23 @@ function Navbar() {
             </div>
           </div>
           <div className="imgcontainer">
-            <img className="imgneed30" src="src/img/facebook.png" alt="" />
-            <img className="imgneed30" src="src/img/X.png" alt="" />
-            <img className="imgneed30" src="src/img/instagram.png" alt="" />
-            <img className="imgneed30" src="src/img/youtube.png" alt="" />
+            <img src="src/img/facebook.png" alt="" />
+            <img src="src/img/X.png" alt="" />
+            <img src="src/img/instagram.png" alt="" />
+            <img src="src/img/youtube.png" alt="" />
           </div>
         </div>
-        <div className="NeedToBeWhite">
+        <div className="Navbarbottom">
           <div className="needrow">
               <a href="X"><img className="logo" src="src/img/Logo.png" alt="Logo" /></a>
               <div>
-                <a className="greenlinks NeedsUrbanFont" href="">Home</a>
-                <a className="greenlinks NeedsUrbanFont" href="">About Us</a>
-                <a className="greenlinks NeedsUrbanFont" href="">Services</a>
-                <a className="greenlinks NeedsUrbanFont" href="">Contact Us</a>
+                <a className="greenlinks NeedsUrbanFont" href="x">Home</a>
+                <a className="greenlinks NeedsUrbanFont" href="x">About Us</a>
+                <a className="greenlinks NeedsUrbanFont" href="x">Services</a>
+                <a className="greenlinks NeedsUrbanFont" href="x">Contact Us</a>
               </div>
               <div>
-                <a href="booking.jsx" className="NeedToBeYelow btn-area">Book Now</a>
+                <a href="booking.jsx" className="NeedToBeYelow btn-area btn-navbar NeedsUrbanFont">Book Now</a>
               </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Hero = () => {
                     amet lorem fringilla sodales. Cras lobortis, libero at iaculis luctus, nisi ex pellentesque nisi, at 
                     euismod sem ipsum ac dolor.
                 </p>
-                <a className="NeedToBeYelow btn-area NeedsUrbanFont Hero-btn" href="X" >Discover More</a>
+                <a className="NeedToBeYelowbtn btn-area NeedsUrbanFont Hero-btn" href="X" >Discover More</a>
             </div>
             <div>
                 <img className="Hero-img" src="src/img/grayman.png" alt="" />

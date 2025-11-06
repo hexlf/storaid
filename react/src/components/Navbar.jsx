@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="Navbarcontainer">
-        <div className="Navbartop NeedsToBeDarkGreen">
+        <div className="Navbartop NeedsToBeDarkGreenbk">
           <div className="phone-mail">
             <div>
               <img className="smallimg" src="src/img/phone.png" alt="phone number" />
@@ -30,7 +30,7 @@ const Navbar = () => {
                 <a className="greenlinks NeedsUrbanFont" href="x">Contact Us</a>
               </div>
               <div>
-                <a href="booking.jsx" className="NeedToBeYelow btn-area btn-navbar NeedsUrbanFont">Book Now</a>
+                <a href="booking.jsx" className="NeedToBeYelowbtn btn-area btn-navbar NeedsUrbanFont">Book Now</a>
               </div>
           </div>
         </div>

@@ -286,3 +286,61 @@ a.btn-area:hover{
     height: 71px;
   }
 }
+
+.Services-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 493px;
+  margin-top: 95px;
+  .Services-header{
+    display: flex;
+    align-items: center;
+    width: 1404px;
+    h4{
+      font-size: 25px;
+    }
+  }
+
+  .Services-topside{
+    display: flex;
+    flex-direction: row;
+    width: 1404px;
+    gap: 10px;
+    margin-bottom: 28px;
+    h3{
+      font-size: 52px;
+    }
+    p{
+      font-size: 16px;
+    } 
+  }
+
+  .Services-bottomside{
+    display: flex;
+    .Service-img{
+      height: 327px;
+      width: 519px;
+    }
+
+    .servicesgap{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .Service-tiles{
+      height: 155px;
+      width: 390px;
+      margin-left: 32px;
+      margin-right: 32px;
+      h5{
+        font-size: 24px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+}

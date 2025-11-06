@@ -10,10 +10,11 @@
   --clr-green-primary: #12372A;
   --clr-green-sec: hsla(159, 51%, 14%, 0.80);
   --clr-yelow-primary: #F1C30C;
-  --clr-faintyelow-prim: #FAF8EC;
+  --clr-faintyelow-primary: #FAF8EC;
   --clr-faintyelow-sec: #F1FFEA;
   --clr-gray-background: #C4C4C4;
   --clr-gray-border: #ECECEC;
+  
 }
 
 .test{
@@ -194,7 +195,7 @@ a.btn-area:hover{
   display: flex;
   justify-content: center;
   margin: 95px 0 95px 0;
-  height: 740px;
+  height: 550px;
   gap: 1.5vw;
   .AboutUsimgside{
     height: 549px;
@@ -271,5 +272,17 @@ a.btn-area:hover{
     .infolink{
       color: var(--clr-green-primary);
     }
+  }
+}
+
+.Brands-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 148px;
+  background-color: var(--clr-faintyelow-primary);
+  gap: 57px;
+  .brandimg{
+    height: 71px;
   }
 }

@@ -20,10 +20,9 @@ function Services() {
                     <h5 className="NeedsToBeDarkGreen NeedsUrbanFont">Moving Assistance</h5>
                     <p className="NeedsToBeDarkGreen NeedsUrbanFont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                 </div>
-                
             </div>
             <div>
-                <img className="Service-img" src="src/img/Services.png" alt="" />
+                <img className="Service-img" src="src/img/Services.png" alt="Services image" />
             </div>
             <div className="servicesgap">
                 <div className="Markedtiles Service-tiles">
@@ -34,7 +33,6 @@ function Services() {
                     <h5 className="NeedsToBeDarkGreen NeedsUrbanFont">Top-Notch Security</h5>
                     <p className="NeedsToBeDarkGreen NeedsUrbanFont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.4</p>
                 </div>
-                
             </div>
         </div>
     </div>

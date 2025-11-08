@@ -5,7 +5,7 @@ const Hero = () => {
     <div>
         <div className="Hero-container">
             <div className="Hero-Textside">
-                <h4>
+                <h4 className='NeedToBeYelow'>
                     Welcome to StorAid
                 </h4>
                 <h1>

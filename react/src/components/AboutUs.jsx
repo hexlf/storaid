@@ -29,7 +29,7 @@ function AboutUs() {
               <img className="aboutimg" src="src/img/aboutphone.png" alt="" />
               <div className="info">
                 <h5 className="NeedsUrbanFont NeedsToBeDarkGreen">More Information</h5>
-                <a className="infolink" href="X">+46 8 123 122 44</a>
+                <a className="NeedsToBeDarkGreen" href="X">+46 8 123 122 44</a>
               </div>
             </div>
         </div>

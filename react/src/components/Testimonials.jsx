@@ -21,12 +21,12 @@ function Testimonials() {
             amet, lobortis fringilla ante.
           </p>
           <div className='Userinfo'>
-            <img className='profile' src="X" alt="Profile picture" />
+            <img className='profile' src="src/img/grayball.png" alt="Profile picture" />
             <div>
               <h6 className='NeedsUrbanFont NeedsToBeDarkGreen h6size'>Name</h6>
               <p className='NeedsToBeDarkGreen psize'>Customer</p>
             </div>
-            <img className='Markimg' src="X" alt="" />
+            <img className='Markimg' src="src/img/comenter.png" alt="Comment icon" />
           </div>
         </div>
         <div className="testimonial-card">
@@ -37,12 +37,12 @@ function Testimonials() {
             amet, lobortis fringilla ante.
           </p>
           <div className='Userinfo'>
-            <img className='profile' src="X" alt="Profile picture" />
+            <img className='profile' src="src/img/grayball.png" alt="Profile picture" />
             <div>
               <h6 className='NeedsUrbanFont NeedsToBeDarkGreen h6size'>Name</h6>
               <p className='NeedsToBeDarkGreen psize'>Customer</p>
             </div>
-            <img className='Markimg' src="X" alt="" />
+            <img className='Markimg' src="src/img/comenter.png" alt="Comment icon" />
           </div>
         </div>
         <div className="testimonial-card">
@@ -53,12 +53,12 @@ function Testimonials() {
             amet, lobortis fringilla ante.
           </p>
           <div className='Userinfo'>
-            <img className='profile' src="X" alt="Profile picture" />
+            <img className='profile' src="src/img/grayball.png" alt="Profile picture" />
             <div>
-              <h6 className='NeedsUrbanFont NeedsToBeDarkGreen h6size'>Name</h6>
-              <p className='NeedsToBeDarkGreen psize'>Customer</p>
+              <h6 className='NeedsUrbanFont NeedsToBeDarkGreen'>Name</h6>
+              <p className='NeedsToBeDarkGreen'>Customer</p>
             </div>
-            <img className='Markimg' src="X" alt="" />
+            <img className='Markimg' src="src/img/comenter.png" alt="Comment icon" />
           </div>
         </div>
       </div>

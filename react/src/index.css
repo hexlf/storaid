@@ -612,3 +612,34 @@ a.btn-area:hover{
     }
   }
 }
+
+.Looking{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 435px;
+  background-color: var(--clr-green-primary);
+  h3, p{
+    text-align: center;
+    color: var(--clr-white-primary);
+  }
+
+  h3{
+    width: 1093px;
+    margin-top: 96px;
+    font-size: 52px;
+    margin-bottom: 28px;
+  }
+
+  p{
+    margin-bottom: 39px;
+    width: 1063px;
+    font-size: 16px;
+  }
+
+  a{
+    height: 46px;
+    width: 128px;
+  }
+}

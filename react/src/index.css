@@ -498,10 +498,117 @@ a.btn-area:hover{
     }
     
     .Choose-imgside{
-  
       img{
         height: 424px;
       }
+    }
+  }
+}
+
+.Pricing{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  height: fit-content;
+  width: 1365px;
+  margin-top: 95px;
+  margin-bottom: 95px;
+  h4{
+    font-size: 25px;
+  }
+  h3{
+    height: fit-content;
+    width: 563px;
+    font-size: 52px;
+  }
+  .Cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+    gap: 26px;
+    .Card-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: var(--clr-faintyelow-sec);
+      border: solid 3px var(--clr-gray-border);
+      color: var(--clr-green-primary);
+      width: 321px;
+      height: fit-content;
+      border-radius: 10px;
+      padding: 27px;
+      .card-toptext{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 248px;
+        border-bottom: solid 2px var(--clr-green-primary);
+        margin-bottom: 27px;
+
+        h5{
+          font-size: 24px;
+          margin-bottom: 24px;
+        }
+
+        p{
+          font-size: 16px;
+          margin-top: 24px;
+          margin-bottom: 24px;
+        }
+
+        .price{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          h3{
+            color: var(--clr-yelow-primary);
+            width: fit-content;
+            font-size: 52px;
+          }
+          h6{
+            margin-right: 15px;
+            align-self: flex-end;
+            font-size: 20px;
+          }
+          h6.NeedToBeYelow{
+            align-self: baseline;
+          }
+        }
+      }
+
+      ul{
+        display: flex;
+        flex-direction: column;
+        list-style-image: url("src/img/Smalmark.png");
+        li{
+          height: fit-content;
+          font-size: 16px;
+          margin-bottom: 12px;
+        }
+      }
+
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 12px;
+        height: 45px;
+        width: 124px;
+      }
+    }
+
+    .Card-container:hover{
+      background-color: var(--clr-green-primary);
+      color: var(--clr-white-primary);
+      .card-toptext{
+        border-bottom: solid 2px var(--clr-white-primary);
+      }
+      ul{
+        list-style-image: url("src/img/smalmarkyelow.png");
+      }
+      
     }
   }
 }

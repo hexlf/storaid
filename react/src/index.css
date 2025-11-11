@@ -649,13 +649,15 @@ a.btn-area:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 917px;
+  height: fit-content;
+  margin-top: 95px;
   h4{
     font-size: 25px;
     margin-bottom: 26px;
   }
   .Latest-container{
-    height: 727px;
+    height: fit-content;
+    margin-bottom: 95px;
     .Latest-topside{
       display: flex;
       flex-direction: row;
@@ -733,5 +735,97 @@ a.btn-area:hover{
         }
       }
     }
+  }
+}
+
+.Subscribe-area{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 163px;
+  background-color: var(--clr-faintyelow-primary);
+  gap: 107px;
+  .Subscribe-textside{
+    h3{
+      width: 599px;
+      font-size: 52px;
+    }
+    p{
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  .Subscribe-submit{
+    display: flex;
+    flex-direction: column;
+
+    ::placeholder{
+      color: var(--clr-yelow-primary);
+    }
+
+    .red{
+      color: red;
+      display: flex;
+      position: relative;
+      top: 37px;
+      left: 153px;
+    }
+    
+    /*  The Problem 
+    input:required:invalid{
+      border: solid 2px red;
+    }
+    */
+    input:required:valid{
+      color: var(--clr-green-primary);
+    }
+
+    input:focus{
+      color: var(--clr-yelow-primary);
+    }
+
+    input{
+      height: 60px;
+      width: 540px;
+      border: solid 1px var(--clr-yelow-primary);
+      color: var(--clr-green-primary);
+      padding-left: 49px;
+      border-radius: 5px;
+    }
+
+    button{
+      border: none;
+      margin-left: 19px;
+      height: 60px;
+      width: 102px;
+      border-radius: 5px;
+    }
+  }
+}
+
+.footer{
+  display:  flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between ;
+  text-align: center;
+  padding-left: 290px;
+  padding-right: 290px;
+  height: 90px;
+  background-color: var(--clr-green-primary);
+  color: var(--clr-white-primary);
+  img{
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+  }
+  div{
+    display: flex;
+    flex-direction: row;
+    gap: 51px;
+  }
+  a{
+    color: var(--clr-white-primary);
   }
 }

@@ -9,8 +9,8 @@ function Subscribe() {
            updates and info</p>
       </div>
       <div className='Subscribe-submit'> 
-        <form action="">
-          <input className='textinput' type="text" required placeholder="Enter your email" />
+        <form>
+          <input className='textinput' type="email" required placeholder="Enter your email" />
           <button className='NeedToBeYelowbtn' type="submit">submit</button>
         </form>
       </div>

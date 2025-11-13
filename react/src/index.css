@@ -392,11 +392,15 @@ a.btn-area:hover{
       background-color: var(--clr-white-primary);
       border-radius: 10px;
       padding: 25px;
-
-      .stars{
-        height: 22px;
-        margin-top: 7px;
-        margin-bottom: 36px;
+      
+      .Ratingholder{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 35px;
+        svg{
+          width: 25px;
+          fill: var(--clr-green-primary);
+        }
       }
 
       .Userinfo{
@@ -764,20 +768,7 @@ a.btn-area:hover{
       color: var(--clr-yelow-primary);
     }
 
-    .red{
-      color: red;
-      display: flex;
-      position: relative;
-      top: 37px;
-      left: 153px;
-    }
     
-    /*  The Problem 
-    input:required:invalid{
-      border: solid 2px red;
-    }
-    */
-
     input:required:valid{
       color: var(--clr-green-primary);
     }

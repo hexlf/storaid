@@ -19,8 +19,6 @@ export default function Subscribe() {
       body: JSON.stringify(data)
     })
 
-    console.log(data)
-
   };
 
   return (
